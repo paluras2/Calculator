@@ -6,45 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script> 
+    <script src="script.js" defer></script> 
 </head>
 <body>
    
 <div class="totcacatul">
     <div class="allcalc">
-        <div class="numbersresult">
-            <p class="calculation">Numere</p>
-     </div>
+        <div class="numbersresult" id="lastOperationScreen">0</div>
+            <p class="calculation" id="currentOperationScreen">0</p>
+     
     </div>
 <div class="toatebutoanele">
    
      <div class="butoane1">
-        <button data-="" class="c"> C </button>
-        <button class="sapte">7</button>
-        <button class="patru">4</button>
-        <button class="unu">1</button>
-        <button class="zero">0</button>
+        <button id="clearBtn" class="c"> C </button>
+        <button class="sapte" data-number>7</button>
+        <button class="patru"  data-number>4</button>
+        <button class="unu" data-number>1</button>
+        <button class="zero" data-number>0</button>
      </div>
      <div class="butoane2">
-        <button class="plusminus">+/-</button>
-        <button class="opt">8</button>
-        <button class="cinci">5</button>
-        <button class="doi">2</button>
-        <button class="punct">.</button>
+        <button class="plusminus" data-operator>+/-</button>
+        <button class="opt" data-number>8</button>
+        <button class="cinci" data-number>5</button>
+        <button class="doi" data-number>2</button>
+        <button class="punct" id="pointBtn">.</button>
      </div>
      <div class="butoane3">
-        <button class="barastanga">/</button>
-        <button class="noua">9</button>
-        <button class="sase">6</button>
-        <button class="trei">3</button>
-        <button class="delete">DEL</button>
+        <button class="barastanga" data-operator>÷</button>
+        <button class="noua" data-number>9</button>
+        <button class="sase" data-number>6</button>
+        <button class="trei" data-number>3</button>
+        <button class="delete" id="deleteBtn">DEL</button>
      </div>
     
      <div class="butoane5">
-        <button class="x">x</button>
-        <button class="minus">-</button>
-        <button class="plus">+</button>
-        <button class="egal"style="flex-grow: 8"> =</button>
+        <button class="x" data-operator>*</button>
+        <button class="minus" data-operator>−</button>
+        <button class="plus" data-operator>×</button>
+        <button class="egal"style="flex-grow: 8" id="equalsBtn"> =</button>
         
      </div>
     </div>
