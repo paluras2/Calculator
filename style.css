@@ -1,0 +1,66 @@
+.toatebutoanele{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-items: flex-end;
+    
+    
+}
+
+.butoane1{
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+}
+.butoane2{
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+}
+.butoane3{
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+}
+.butoane4{
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+}
+.butoane5{
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    
+}
+
+.allcalc{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(110, 128, 179);
+    width: 160px
+}
+
+.totcacatul{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    width: 300px;
+}
+
+
+.numbersresult{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+
+button{
+    background-color: rgb(163, 139, 110);
+    color: aliceblue;
+    border-style:double;
+    border-radius: 25px;
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
